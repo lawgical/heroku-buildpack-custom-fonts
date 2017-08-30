@@ -19,5 +19,5 @@ echo "-----> Installing custom fonts"
 mkdir -p "$FONTS_TARGET_DIR"
 tar -xvzf "$FONTS_FILE" -C "$FONTS_TARGET_DIR" | indent
 
-echo "Fonts installed in $FONTS_TARGET_DIR" | indent
+echo
 exit 0
