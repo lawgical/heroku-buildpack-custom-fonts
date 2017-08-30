@@ -11,10 +11,12 @@ We'd hate to see that happen. But please feel free to fork it or crib ideas to m
 
 ## Development
 
-### How to Create Fonts Archive
+### How to Update Fonts Archive
+
+Move individual TTF files into `fonts_source`
+
 ```
-tar -cvf fonts.tar -C "path to fonts"
-gzip fonts.tar
+tar -czvf fonts.tar.gz -C fonts_source .
 ```
 
 ### Original Inspiration
